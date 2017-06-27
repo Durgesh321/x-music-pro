@@ -1,0 +1,51 @@
+#clock{
+    font-size: 25px;
+}
+#login-section{
+    background: url("../img/b38.png"), -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background-attachment: fixed;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/b38.png"), linear-gradient(to left top, red, yellow,#40ff00);
+    background-attachment: fixed;
+}
+.myicon{
+    transition: all 1s ease-in-out;
+}
+.myicon:hover{
+    transform: rotate(360deg);
+}
+#mySelect{
+    width: 50%;margin: auto;
+    transition: all .5s ease-in-out;
+    background: orange;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    
+}
+#mySelect:focus{
+    width: 70%;
+}
+#mySelect>option{
+    padding: 5px;
+    
+}
+#myTechList>ol{
+    font-size: 25px;
+}
+#signup_form input{
+    width: 50%;
+    margin: 0px auto;
+    transition:all .5s ease-in-out;
+}
+#signup_form input:focus{
+    width: 70%;
+    border:1px solid green;
+}
+#signup_form label{
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+}
+#signup_form input[type="checkbox"]{
+    width: 50%;
+}

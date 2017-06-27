@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>XMusic Pro</title>
+        <link rel="icon" href="img/icon.webp" />
+        <!-- Bootstrap Core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Plugin CSS -->
+        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+        <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+        <!-- Theme CSS -->
+        <link href="css/new-age.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="css/mycss.css" rel="stylesheet" type="text/css"/>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" ng-controller="myCtrl">
+
+<!--nav bar -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll animated fadeIn  " style="font-size:20px;" href="#page-top">X_Music_Pro</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#translate">Translate</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#download">Download</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+
+        <header id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 " >
+                        <div class="header-content" style="border:0px  solid red;text-align:center;">
+                            <div class="header-content-inner" style="margin:auto;border:0px solid black;max-width:100%;width:100%;">
+                                <h1 class="text-center  animated bounceInDown wow"><a href="#"  class=""><img src="img/xpro/ic_launcher (192 X 192).png"  class=""/></a></h1>
+
+                                <h1 class="text-center  animated bounceInDown wow">X Music Player Pro</h1>
+                                <span style="display: block;" class="text-center">
+                                    <a href="#download"  class="heading-font btn btn-outline btn-xl page-scroll">Download</a>
+                                    <a href="#" data-target="#login" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" id="signin">Translate</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center animated wow fadeInDownBig">
+                        <div class="section-heading">
+                            <h2>Unlimited Features, Beautifull Animations..and many more features. </h2>
+                            <p class="text-muted">Check out ConnectWith template!!</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="device-container">
+                            <div class="device-mockup iphone6_plus portrait white">
+                                <div class="device">
+                                    <div class="screen">
+                                        <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                        <img src="img/xpro/image1.webp" class="img-responsive animated wow rotateInDownLeft" alt=""> </div>
+                                    <div class="button">
+                                        <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 animated wow fadeInDownBig">
+                                    <div class="feature-item">
+                                        <i class="icon-screen-smartphone text-primary"></i>
+                                        <h3>Share!!</h3>
+                                        <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 animated wow fadeInDownBig">
+                                    <div class="feature-item">
+                                        <i class="icon-camera text-primary"></i>
+                                        <h3>Flexible Use</h3>
+                                        <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 animated wow fadeInDownBig">
+                                    <div class="feature-item">
+                                        <i class="icon-present text-primary"></i>
+                                        <h3>Free to Use</h3>
+                                        <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 animated wow fadeInDownBig">
+                                    <div class="feature-item">
+                                        <i class="icon-lock-open text-primary"></i>
+                                        <h3>Manage Account</h3>
+                                        <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              
+
+            </div >
+
+
+          </div >
+
+
+        </div >
+
+
+        <section id="download" class="download bg-primary text-center " style=" background: url('img/bg-pattern.png'),-webkit-linear-gradient(to top right,#5747b2,  #fd3966);
+                 background: url('img/bg-pattern.png'), linear-gradient(to top right,#5747b2, #fd3966);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="section-heading animated bounceInDown wow">Discover what all the buzz is about!</h2>
+                        <p class="animated bounceInDown wow">Our app is available on any mobile device! Download now to get started!</p>
+                        <div class="badges">
+                            <a class="badge-link animated wow fadeInDown" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+                            <a class="badge-link animated wow fadeInDown" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" >
+            <div class="cta-content">
+                <div class="container animated wow fadeInDown">
+                    <h2>Stop waiting.<br>download and user X music  player </h2>
+                    <a href="#download" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+
+
+        <section id="iphone" class="iphone" style=" height:400px;background: url('img/iphone.jpg') no-repeat;background-attachment: fixed;background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="text-center " style="color:white;">Quality Matters!!!</h1>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="download" class="download bg-primary  " style=" background: url('img/bg-pattern.png'),-webkit-linear-gradient(to top right,#5747b2,  #fd3966);
+                 background: url('img/bg-pattern.png'), linear-gradient(360deg,rgba(255, 4, 0, 0.6),rgba(235, 215, 0, 0.6));">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="section-heading animated bounceInDown wow">We have used following technology for designing this template:</h2>
+                        <div class="animated wow bounceInRight" id="myTechList">
+                            <ol>
+                                <li> HTML</li>
+                                <li> CSS</li>
+                                <li> Javascript</li>
+                                <li> JQuery</li>
+                                <li>Angular JS</li>
+                                <li> Bootstrap</li>
+                                <li>Google Font API</li>
+                                <li>Google Icon API</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="login_section" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4" style="">
+                        <div class="device-container">
+                            <div class="device-mockup galaxy_tab4 portrait white">
+                                <div class="device animated wow fadeInDown">
+                                    <div class="screen">
+                                        <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                        <img src="img/man.png" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="button">
+                                        <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-7 col-sm-offset-1" style="border:0px solid black;">
+                        <div class="panel panel-success animated wow fadeInDown">
+                            <div class="panel-heading"><h3>About</h3></div>
+                            <div class="panel-body">
+                                <p class="blockquote-reverse">  X Music Player Pro is a stunning and minimalistic Music Player, beautifully hand crafted with Minimal Flat Design in mind and packed with some amazing and powerful features.</p>
+                                <h1 class="text-center text-capitalize"><button class="btn btn-outline btn-xl " style="background: blue;">More</button></h1>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="contact" class="contact bg-primary animated wow fadeInDownBig" style=" background: -webkit-linear-gradient(to top right,#5747b2,  #fd3966);
+                 background:url('img/square.png'),linear-gradient(to top right,rgba(0, 255, 8, 0.6),rgba(255, 10, 8, 0.4), #fd3966);">
+            <div class="container">
+                <h2>Get <i class="fa fa-heart"></i> in Touch !! X Music Pro !!</h2>
+
+                <ul class="list-inline list-social">
+                    <li class="social-twitter myicon">
+                        <a href="https://twitter.com/durgeshkumar305" ><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="social-facebook myicon">
+                        <a href="https://www.facebook.com/durgeshkumartiwari"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="social-google-plus myicon">
+                        <a href="https://plus.google.com/u/0/106904998117208685469"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li class="social-facebook myicon">
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li class="social-google-plus myicon ">
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy;2017 bitsoft. All Rights Reserved.</p>
+                <p>Create and Design by: Durgesh Kumar Tiwari</p>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Modals  -->
+
+        <div id="login" class="modal animated slideInDown " role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content ">
+                    <div class="modal-header" style="background: rgba(221, 94, 0, 0.8)">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title text-center">Login</h2>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="name">Name :</label>
+                                <input type="text" name="name" class="form-control" placeholder="Enter your name here"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter your password here">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Remember me</label>
+                            </div>
+                            <span class="text-center " style="display: block;"><button type="submit" class="btn btn-primary btn-xl ">Submit</button>
+                            </span>
+                        </form>
+
+
+
+                    </div>
+                    <div class="modal-footer" style="background:rgba(221, 94, 0, 0.8)">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- sign up modal -->
+        <div id="signup" class="modal animated slideInLeft " role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content ">
+                    <div class="modal-header" style="background:  rgba(164, 239, 0, 0.4)">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title text-center">Signup</h2>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="post" action="#" id="signup_form">
+                            <div class="form-group">
+                                <label for="name">Name :</label>
+                                <input required type="text" name="name" class="form-control" placeholder="Enter your name here"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" placeholder="Enter your email id here" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input  required type="password" class="form-control" id="pwd" placeholder="Enter your password here">
+                            </div>
+                            <div class="checkbox">
+                                <label><input  type="checkbox"/>Agree all Conditions</label>
+                            </div>
+
+                            <span class="text-center " style="display: block;"><button type="submit" class="btn btn-primary btn-xl ">Submit</button>
+                            </span>
+                        </form>
+
+
+
+                    </div>
+                    <div class="modal-footer" style=" background:rgba(164, 239, 0, 0.4)">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- end signup modal -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+        <!-- Theme JavaScript -->
+
+
+        <script src="js/wow.js" type="text/javascript"></script>
+        <script src="js/new-age.min.js"></script>
+        <script src="js/myjs.js" type="text/javascript"></script>
+        <script src="js/angular.js" type="text/javascript"></script>
+        <script src="js/myAngular.js" type="text/javascript"></script>
+
+
+        <script >
+                                        $(document).ready(function () {
+
+
+                                            wow = new WOW({
+                                                boxClass: 'wow', // default
+                                                animateClass: 'animated', // default
+                                                offset: 0, // default
+                                                mobile: true, // default
+                                                live: true // default
+                                            })
+                                            wow.init();
+
+
+                                        });
+
+        </script>
+
+    </body>
+
+</html>
